@@ -50,3 +50,10 @@
 }
 
 
+#cursor{
+    height: 20px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+}
