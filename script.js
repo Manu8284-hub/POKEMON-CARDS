@@ -19,7 +19,7 @@ let arr=[
     ];
     let s="";
 for(let i=1; i<66; i++){
-    let r= Math.floor(Math.random()*6);
+    let r= Math.floor(Math.random()*arr.length);
     s += `<div class ="card"><img src=${arr[r]}></div>`;
 }
 main.innerHTML=s;
